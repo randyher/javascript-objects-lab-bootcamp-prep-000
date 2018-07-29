@@ -6,6 +6,7 @@ var recipes = {
 function destructivelyUpdateObjectWithKeyAndValue(obj, key,value) {
 obj[key] = value
 return obj
+<<<<<<< HEAD
 }
 
 function destructivelyDeleteFromObjectByKey(obj, key){
@@ -23,3 +24,6 @@ function deleteFromObjectByKey(obj,key){
   return newObj
 }
 
+=======
+}
+>>>>>>> 5fdb0f7cd9904692f4b1ae34ed877a270aaf97a5
